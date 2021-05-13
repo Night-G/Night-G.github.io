@@ -13,6 +13,6 @@ app.use(express.static('public'));
 // })
 
 
-// app.get("/", function (req,res) { 
-//     res.sendFile(__dirname + "/main.html")
-// });
+app.get("/", function (req,res) { 
+    res.sendFile(__dirname + "/main.html")
+});
